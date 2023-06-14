@@ -1,17 +1,32 @@
 # sqlalchemy-challenge
 
-
-## A trip to Hawaii
-
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area.
-
-
-
-### Year long precipitation data in Hawaii
-
 ![bar chart of precipitation](https://user-images.githubusercontent.com/112681621/235338644-656dbc12-a16b-4123-b4cb-237243973f45.png)
 
 
-### Histogram of temperatures
+## Repo Description/Outline:
 
-![histogram of temperature](https://user-images.githubusercontent.com/112681621/235338646-81f41018-8f46-4a40-b6f4-9590138c25dd.png)
+Using data provided in sqlite and csv files, Hawaiian tempurature data is queried, grouped and visualized in a Jupyter Notebook. Data is visualized using:
+
+- A flask app using sqlalchemy to query the data
+- A matplotlib bar chart
+- A histogram on temperature
+
+
+## Repository Contents:
+
+- An output folder containing the following files: 
+  - bar chart of precipitation.png
+  - histogram of temperature.png
+
+- A resource folder containing the following files:
+  - hawaii.sqlite
+  - hawaii_measurements.csv
+  - hawaii_stations.csv
+
+- A SurfsUp folder containing the following files:
+  - app.py (flask app)
+  - climate_starter.ipynb
+
+
+
+
